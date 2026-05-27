@@ -1,10 +1,13 @@
 import './App.css'
+import Learn from './Learn.jsx'
 
 const App = () => {
+  
   return (
-    <div>
-      <h1>Learning React</h1>
-    </div>
+      <>
+         <h1>Learning React</h1>
+         <Learn/>
+      </>
   )
 }
 
