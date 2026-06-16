@@ -95,4 +95,3 @@ export default TodoItem;
                     </div>
                 </div>
             </div>
-```
