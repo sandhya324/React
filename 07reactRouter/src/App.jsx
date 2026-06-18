@@ -1,9 +1,14 @@
 import React from 'react'
+import Home from './components/Home/Home'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
     <>
-      <h1 className='bg-green-600 p-4'>React Router</h1>
+       <Header />
+       <Home />
+       <Footer />
     </>
   )
 }
